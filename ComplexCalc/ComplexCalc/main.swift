@@ -24,6 +24,7 @@ assert(calc.divide(lhs: 2, rhs: 2) == 1)
 assert(calc.mathOp(lhs: 5, rhs: 5, op: { ($0 + $1) + ($0 * $1) }) == 35)
 assert(calc.mathOp(lhs: 10, rhs: -5, op: { ($0 + $1) + ($0 - $1) }) == 20)
 
+
 assert(calc.add([1, 2, 3, 4, 5]) == 15)
 assert(calc.multiply([1, 2, 3, 4, 5]) == 120)
 assert(calc.count([1, 2, 3, 4, 5, 6, 7, 8]) == 8)
